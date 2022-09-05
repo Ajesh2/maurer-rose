@@ -4,8 +4,9 @@ init_window(600, 600, "Maurer Rose")
 n,d = random.randint(2,100),random.randint(2,100)
 tx,ty = 300,300
 c = Color(random.randint(100,255),random.randint(100,255),random.randint(100,255),255)
+set_target_fps(60)
 while not window_should_close():
-    set_target_fps(60)
+    
     draw_fps(10,10,10)
     draw_text("Press \"r\" to reset",10,35,20,LIME)
     begin_drawing()
