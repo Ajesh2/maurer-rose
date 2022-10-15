@@ -1,3 +1,17 @@
+"""  ****************************************************************
+     *                    Anadeia - Text Editor                     *
+     *                      by Ajesh Sharma                         *
+     *                                                              *
+     *             [Github](https://github.com/Ajesh2)              *
+     *                [Itch](https://theaj.itch.io/)                *
+     *                                                              *
+     *                                                              *
+     * A wallpaper generator made by Ajesh Sharma.                  *
+     *                                                              *
+     * This project was made in python purely due to me being       *
+     * actively using python at that time and in my opinion this    *
+     * was a great success to achieve what I aimed at beginning.    *
+     ****************************************************************  """
 #modules
 import math,random,time
 from pyray import *
